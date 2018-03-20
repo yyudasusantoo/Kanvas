@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="@android:integer/config_shortAnimTime"
+    android:exitFadeDuration="@android:integer/config_shortAnimTime">
+    <item android:state_selected="true"
+        android:drawable="@drawable/tes3" /> <!-- klik aktif -->
+    <item android:state_pressed="true" android:drawable="@drawable/tes3" /> <!-- diklik -->
+    <item android:drawable="@drawable/tes2" /> <!-- dasaran -->
+</selector>
